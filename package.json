@@ -1,0 +1,34 @@
+{
+  "name": "express_note-taker",
+  "version": "1.0.0",
+  "description": "Note taking application run with express and node.js",
+  "main": "./server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalashnikoffee/Express_Note-Taker.git"
+  },
+  "keywords": [
+    "Express",
+    "Node.js",
+    "NPM",
+    "Javascript",
+    "Notes"
+  ],
+  "author": "Lucas Coffee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalashnikoffee/Express_Note-Taker/issues"
+  },
+  "homepage": "https://github.com/kalashnikoffee/Express_Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "engines": {
+    "node": "10.16.x"
+  }
+}

@@ -27,3 +27,29 @@ var deleteNote = function(id) {
     method: "DELETE"
   });
 };
+
+// If there is an activeNote, display it, otherwise render empty inputs
+var renderActiveNote = function() {
+  $saveNoteBtn.hide();
+
+  if (activeNote.id) {
+    $noteTitle.attr("readonly", true);
+    $noteText.attr("readonly", true);
+    $noteTitle.val(activeNote.title);
+    $noteText.val(activeNote.text);
+  } else {
+    $noteTitle.attr("readonly", false);
+    $noteText.attr("readonly", false);
+    $noteTitle.val("");
+    $noteText.val("");
+  }
+};
+// Delete the clicked note
+// prevents the click listener for the list from being called when the button inside of it is clicked
+// Sets the activeNote and displays it
+// Sets the activeNote to and empty object and allows the user to enter a new note
+// If a note's title or text are empty, hide the save button
+// Or else show it
+// Render's the list of note titles
+// Gets notes from the db and renders them to the sidebar
+// Gets and renders the initial list of notes

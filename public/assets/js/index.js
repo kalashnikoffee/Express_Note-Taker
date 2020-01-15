@@ -116,12 +116,14 @@ var renderNoteList = function(notes) {
   $noteList.append(noteListItems);
 };
 //*****************************************************
-// Gets notes from the db and renders them to the sidebar
+//Gets notes from the db and renders them to the sidebar
 var getAndRenderNotes = function() {
   return getNotes().then(function(data) {
     renderNoteList(data);
   });
 };
+//**************************************************
+//Buttons
 $saveNoteBtn.on("click", handleNoteSave);
 $noteList.on("click", ".list-group-item", handleNoteView);
 $newNoteBtn.on("click", handleNewNoteView);

@@ -6,12 +6,12 @@ to try the application, you can visit the deployed site here
 
 ### Installation
 if you would like to run the application on your own machine:
--Clone this repo to your machine
--Navigate to the directory in CLI
--Enter "npm install" in the CLI, then wait for installation to finish
--Enter "node server.js" to establish a local server host - NOTE: DON'T CLOSE THE CLI 
--When you are done testing the app, press crtl+c in the CLI to terminate the localhost on your machine.
--In a browser, navigate to http://localhost:3000 to begin using the application
+- Clone this repo to your machine
+- Navigate to the directory in CLI
+- Enter "npm install" in the CLI, then wait for installation to finish
+- Enter "node server.js" to establish a local server host - NOTE: DON'T CLOSE THE CLI 
+- When you are done testing the app, press crtl+c in the CLI to terminate the localhost on your machine.
+- In a browser, navigate to http://localhost:3000 to begin using the application
 
 ## DEMO
 ![demoGif](public/assets/demo/demoGif.gif)

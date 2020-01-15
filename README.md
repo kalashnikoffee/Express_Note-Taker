@@ -37,8 +37,6 @@ if you would like to run the application on your own machine:
 - [Link to Github](https://github.com/kalashnikoffee)
 - [Link to LinkedIn](https://www.linkedin.com/in/lucas-coffee-08853719/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License 
